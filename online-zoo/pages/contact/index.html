@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__heading">Online Zoo</h1>
+        <div class="header__container container">
+            <div class="header__logo">
+                <a href="../../index.html"><img src="../../assets/svg/logo.svg" alt="logo of site"></a>
+            </div>
+            <nav class="header__nav">
+                <img id="header__hamburger-close--id" class="header__hamburger-close"
+                    src="../../assets/svg/hamburger-close.svg" alt="Hamburger close icon">
+                <ul class="nav__list nav__list--main">
+                    <li class="nav__item"><a class="link nav__link" href="../../index.html">About</a></li>
+                    <li class="nav__item"><a class="link nav__link" href="../map/index.html">Map</a></li>
+                    <li class="nav__item"><a class="link nav__link" href="../zoos/panda/index.html">Zoos</a></li>
+                    <li class="nav__item">Contact us</li>
+                    <li class="nav__item"><a class="link nav__link"
+                            href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project?node-id=0%3A1"
+                            target="_blank">Design</a>
+                    </li>
+                </ul>
+                <ul class="nav__list nav__list--social">
+                    <li class="nav__item"><a class="link nav__link" href="https://www.youtube.com/" target="_blank"><img
+                                src="../../assets/svg/youtube.svg" alt="logo of youtube"></a>
+                    </li>
+                    <li class="nav__item"><a class="link nav__link" href="https://www.instagram.com/"
+                            target="_blank"><img src="../../assets/svg/instagram.svg" alt="logo of instagram"></a></li>
+                    <li class="nav__item"><a class="link nav__link" href="https://www.facebook.com/"
+                            target="_blank"><img src="../../assets/svg/facebook.svg" alt="logo of facebook"></a></li>
+                </ul>
+            </nav>
+            <img id="header__hamburger--id" class="header__hamburger" src="../../assets/svg/hamburger.svg"
+                alt="Humberger icon">
+        </div>
+    </header>
+
+    <main>
+        <section class="section contact">
+            <div class="contact__inner">
+                <img class="contact__big-img" src="../../assets/img/contact-cheetah.jpg" alt="Picture of Cheetah">
+                <div class="contact__content">
+                    <div class="contact__first-content">
+                        <h3 class="contact__heading">Get in touch</h3>
+                        <p class="contact__description">Whether you have a question, or would like to say hello, we're
+                            happy to hear from you. Please
+                            use the form to send us a message and we'll get back to you as soon as we can. Whether you
+                            have a question, or would like to say hello, we're happy to hear from you. Please use the
+                            form to send us a message and we'll get back to you as soon as we can.</p>
+                    </div>
+                    <div class="contact__second-content">
+                        <form class="contact__form">
+                            <div class="contact__username">
+                                <label class="contact__label" for="name"><span class="contact__span">* </span>Your
+                                    Name</label>
+                                <input class="contact__input" type="text" id="name" placeholder="First and last name"
+                                    required>
+                            </div>
+                            <div class="contact__email">
+                                <label class="contact__label" for="email"><span class="contact__span">* </span>Your
+                                    Email Address</label>
+                                <input class="contact__input" type="email" id="email" placeholder="Enter your email"
+                                    required>
+                            </div>
+                            <div class="contact__subject">
+                                <label class="contact__label" for="subject"><span class="contact__span">*
+                                    </span>Subject</label>
+                                <input class="contact__input" type="text" id="subject" placeholder="Enter the subject"
+                                    required>
+                            </div>
+                            <div class="contact__message">
+                                <label class="contact__label" for="message"><span class="contact__span">*
+                                    </span>Message</label>
+                                <textarea class="contact__textarea" type="text" placeholder="Enter your message"
+                                    required></textarea>
+                            </div>
+                            <button class="contact__button" type="submit">Send message<svg class="contact__button-svg"
+                                    width="26" height="22" viewBox="0 0 26 22" fill="#fff"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z" />
+                                </svg></button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__main">
+                <ul class="list footer__logos">
+                    <li><img title="Online Zoo" src="../../assets/svg/footer-logo.svg" alt="Logo of Website"></li>
+                </ul>
+
+                <nav class="footer__nav">
+                    <ul class="nav__list nav__list--footer">
+                        <li class="nav__item"><a class="link nav__link--footer" href="../../index.html"
+                                class="about">About</a>
+                        </li>
+                        <li class="nav__item"><a class="link nav__link--footer" href="../map/index.html">Map</a>
+                        </li>
+                        <li class="nav__item"><a class="link nav__link--footer" href="../zoos/panda/index.html">Zoos</a>
+                        </li>
+                        <li class="nav__item"><a class="link nav__link--footer" href="index.html">Contact
+                                us</a></li>
+                    </ul>
+                </nav>
+
+                <div class="btn footer__btn">
+                    <a class="footer__btn-link" href="#">Donate for volunteers<img
+                            src="../../assets/svg/right-arrow.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="footer__secondary">
+                <div class="footer__production">
+                    <p class="footer__p" title="AdiNur">&#169 2021 AdiNur</p>
+                </div>
+                <ul class="nav__list nav__list--foot-social">
+                    <li class="nav__item"><a class="link nav__link" href="https://www.youtube.com/" target="_blank"><img
+                                src="../../assets/svg/youtube.svg" alt="logo of youtube"></a>
+                    </li>
+                    <li class="nav__item"><a class="link nav__link" href="https://www.instagram.com/"
+                            target="_blank"><img src="../../assets/svg/instagram.svg" alt="logo of instagram"></a></li>
+                    <li class="nav__item"><a class="link nav__link" href="https://www.facebook.com/"
+                            target="_blank"><img src="../../assets/svg/facebook.svg" alt="logo of facebook"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
