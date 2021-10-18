@@ -32,6 +32,19 @@ a {
   transition: all 0.4s;
 }
 
+h3 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 0;
+}
+
+h5 {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .header__heading {
   display: none;
 }
@@ -796,5 +809,191 @@ a {
 .seo__p {
   color: var(--color-font-gray);
   margin: 10px 0;
+}
+
+.footer__inner {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: var(--color-font-white);
+}
+
+.footer__payments {
+  max-width: 1760px;
+  margin: 120px auto 60px;
+}
+
+.footer__payments--h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.footer__payments--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 65px 62px;
+  width: calc(1760px - 130px);
+  background: linear-gradient(268.76deg, #311B60 18.2%, #10183A 98.25%);
+}
+
+.footer__providers {
+  max-width: 1760px;
+  margin: 120px auto 60px;
+}
+
+.footer__providers--h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.footer__providers--content {
+  padding: 65px 62px;
+  width: calc(1760px - 130px);
+  background: linear-gradient(268.76deg, #311B60 18.2%, #10183A 98.25%);
+}
+
+.footer__providers--content-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+  margin-bottom: 55px;
+}
+
+.footer__providers--content-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__nav {
+  width: 1760px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 180px;
+          column-gap: 180px;
+}
+
+.footer__nav--social-p {
+  margin: 30px 0 25px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  width: 320px;
+  font-weight: 400;
+  color: var(--color-font-gray);
+}
+
+.footer__nav--p {
+  margin: 20px 0 20px 30px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  width: 320px;
+  font-weight: 400;
+  color: var(--color-font-gray);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.footer__nav--p:hover {
+  color: #00FFD1;
+  cursor: pointer;
+}
+
+.footer__nav--soc-icon {
+  margin-right: 30px;
+}
+
+.footer__nav--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.footer__nav--slot {
+  width: 300px;
+}
+
+.footer__nav--h5 {
+  margin: 0;
+  padding: 15px 160px 15px 30px;
+  background-color: #10183A;
+}
+
+.footer__terms {
+  width: calc(1760px - 40px);
+  margin: 20px auto 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  color: var(--color-font-gray);
+  padding: 20px;
+  background-color: #10183A;
+}
+
+.footer__terms--icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.footer__terms--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 80px;
+          column-gap: 80px;
+}
+
+.footer__terms--text div {
+  width: 740px;
+}
+
+.footer__terms--p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.footer__terms--p:nth-child(2n) {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */
