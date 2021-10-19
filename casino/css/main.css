@@ -162,6 +162,16 @@ h5 {
   font-weight: 500;
 }
 
+.nav__item {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.nav__item:hover {
+  color: #00FFD1;
+  cursor: pointer;
+}
+
 .nav__item--top-right--img {
   display: block;
   margin-left: auto;
@@ -802,7 +812,6 @@ h5 {
   font-family: 'Roboto', sans-serif;
   width: 880px;
   height: 360px;
-  overflow-y: scroll;
   margin-bottom: 120px;
 }
 

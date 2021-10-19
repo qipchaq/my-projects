@@ -162,7 +162,14 @@ h5 {
         }
     }   
     
-    &__item {        
+    &__item {    
+        transition: all 0.4s;
+
+            &:hover {
+                color: #00FFD1;
+                cursor: pointer; 
+            }
+
         &--top-right--img {
             display: block;
             margin-left: auto;
@@ -399,7 +406,6 @@ h5 {
 }
 
 .new {
-
     &__inner {
         position: relative;
         max-width: 1920px;
@@ -692,7 +698,7 @@ h5 {
         font-family: 'Roboto', sans-serif;
         width: 880px;
         height: 360px;
-        overflow-y: scroll;
+        // overflow-y: scroll;
         margin-bottom: 120px;        
     }
 
@@ -808,10 +814,6 @@ h5 {
             padding: 15px 160px 15px 30px;
             background-color: #10183A;
         }
-
-        // &--facebook1 {
-        //     display: none;
-        // }
     }
 
     &__terms {
@@ -852,11 +854,3 @@ h5 {
         }
     }
 }
-
-// .footer__nav--facebook:hover {
-//     display: none;
-
-//     .footer__nav--facebook1 {
-//         display: block;
-//     }
-// }
