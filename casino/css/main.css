@@ -116,7 +116,7 @@ h5 {
   text-transform: uppercase;
   font-style: italic;
   padding: 8px 20px;
-  width: 100px;
+  width: 50px;
   text-align: center;
 }
 
@@ -125,6 +125,7 @@ h5 {
   background: -webkit-gradient(linear, left top, right top, color-stop(3.1%, #00B2FF), color-stop(96.08%, #8F00FF));
   background: linear-gradient(90deg, #00B2FF 3.1%, #8F00FF 96.08%);
   border-radius: 30px;
+  width: 280px;
 }
 
 .nav__list {
@@ -322,6 +323,7 @@ h5 {
 
 .popular__title--btn-top {
   font-size: 14px;
+  width: 90px;
 }
 
 .popular__title--new {
@@ -672,13 +674,13 @@ h5 {
 }
 
 .news__btn-left {
-  padding: 15px 25px 15px 20px;
+  padding: 15px 10px 15px 5px;
   border-radius: 50%;
   border: 3px solid #311B60;
 }
 
 .news__btn-right {
-  padding: 15px 20px 15px 25px;
+  padding: 15px 5px 15px 10px;
   border-radius: 50%;
   border: 3px solid #00C2FF;
 }
@@ -1053,6 +1055,9 @@ h5 {
   }
   .btn-trans-header {
     padding: 4px 10px;
+  }
+  .btn-trans {
+    width: 100px;
   }
   .nav__list {
     padding: 0;

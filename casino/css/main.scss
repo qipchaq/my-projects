@@ -121,7 +121,7 @@ h5 {
     text-transform: uppercase;
     font-style: italic;
     padding: 8px 20px;
-    width: 100px;
+    width: 50px;
     text-align: center;
 }
 
@@ -129,6 +129,7 @@ h5 {
     color: var(--color-font-white);
     background: linear-gradient(90deg, #00B2FF 3.1%, #8F00FF 96.08%);
     border-radius: 30px;
+    width: 280px;
 }
 
 .nav {
@@ -302,6 +303,7 @@ h5 {
 
         &--btn-top {
             font-size: 14px;
+            width: 90px;
         }
 
         &--new {
@@ -584,13 +586,13 @@ h5 {
     }
 
     &__btn-left {
-        padding: 15px 25px 15px 20px;
+        padding: 15px 10px 15px 5px;
         border-radius: 50%;
         border: 3px solid #311B60;
     }
 
     &__btn-right {
-        padding: 15px 20px 15px 25px;
+        padding: 15px 5px 15px 10px;
         border-radius: 50%;
         border: 3px solid #00C2FF;
     }
@@ -911,6 +913,10 @@ h5 {
     
     .btn-trans-header {
         padding: 4px 10px;
+    }
+
+    .btn-trans {
+        width: 100px;
     }
     
     .btn-grad {
