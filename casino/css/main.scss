@@ -201,7 +201,7 @@ h5 {
         margin: 0 auto;
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
-        background-image: url(./assets/banner.jpg);
+        background-image: url(../assets/banner.jpg);
         background-repeat: no-repeat;
         height: 640px;
         background-size: contain;
@@ -265,7 +265,7 @@ h5 {
         display: flex;
         flex-direction: column;
         color: var(--color-font-white);
-        background-image: url(./assets/new-bg1.png), url(./assets/new-image1.png), url(./assets/new-image2.png), url(./assets/new-bg2.png);
+        background-image: url(../assets/new-bg1.png), url(../assets/new-image1.png), url(../assets/new-image2.png), url(../assets/new-bg2.png);
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: bottom, top 1225px right, top 1275px left, 0 1150px;
     }
@@ -310,40 +310,40 @@ h5 {
         transition: all 0.4s;
 
         &--1 {
-            background-image: url(./assets/popular-game1.png);
+            background-image: url(../assets/popular-game1.png);
         }
         &--2 {
-            background-image: url(./assets/popular-game2.png);
+            background-image: url(../assets/popular-game2.png);
         }
         &--3 {
-            background-image: url(./assets/popular-game3.png);
+            background-image: url(../assets/popular-game3.png);
         }
         &--4 {
-            background-image: url(./assets/popular-game4.png);
+            background-image: url(../assets/popular-game4.png);
         }
         &--5 {
-            background-image: url(./assets/popular-game5.png);
+            background-image: url(../assets/popular-game5.png);
         }
         &--6 {
-            background-image: url(./assets/popular-game6.png);
+            background-image: url(../assets/popular-game6.png);
         }
         &--7 {
-            background-image: url(./assets/popular-game7.png);
+            background-image: url(../assets/popular-game7.png);
         }
         &--8 {
-            background-image: url(./assets/popular-game8.png);
+            background-image: url(../assets/popular-game8.png);
         }
         &--9 {
-            background-image: url(./assets/popular-game9.png);
+            background-image: url(../assets/popular-game9.png);
         }
         &--10 {
-            background-image: url(./assets/popular-game10.png);
+            background-image: url(../assets/popular-game10.png);
         }
         &--11 {
-            background-image: url(./assets/popular-game11.png);
+            background-image: url(../assets/popular-game11.png);
         }
         &--12 {
-            background-image: url(./assets/popular-game12.png);
+            background-image: url(../assets/popular-game12.png);
         }
 
         &--content {
@@ -442,7 +442,7 @@ h5 {
         display: flex;
         flex-direction: column;
         color: var(--color-font-white);
-        background-image: url(./assets/super-bg1.png), url(./assets/super-bg2.png);
+        background-image: url(../assets/super-bg1.png), url(../assets/super-bg2.png);
         background-repeat: no-repeat, no-repeat;
         background-position: top, 0 830px;
     }
@@ -628,23 +628,23 @@ h5 {
         }
 
         &--link1 {
-            background-image: url(./assets/winners-1.jpg);
+            background-image: url(../assets/winners-1.jpg);
         }
 
         &--link2 {
-            background-image: url(./assets/winners-2.jpg);
+            background-image: url(../assets/winners-2.jpg);
         }
 
         &--link3 {
-            background-image: url(./assets/winners-3.jpg);
+            background-image: url(../assets/winners-3.jpg);
         }
 
         &--link4 {
-            background-image: url(./assets/winners-4.jpg);
+            background-image: url(../assets/winners-4.jpg);
         }
 
         &--link5 {
-            background-image: url(./assets/winners-5.jpg);
+            background-image: url(../assets/winners-5.jpg);
         }
 
         &--content {
@@ -987,7 +987,7 @@ h5 {
 
 
     .welcome {
-            background-image: url(./assets/welcome-shine-bottom.png), url(./assets/welcome-shine-middle.png);
+            background-image: url(../assets/welcome-shine-bottom.png), url(../assets/welcome-shine-middle.png);
             background-repeat: no-repeat, no-repeat;
             background-position: bottom 0 left 0, center;
 
@@ -1031,7 +1031,7 @@ h5 {
 
     .popular {
         width: 100%;
-        background-image: url(./assets/popular-bg1.png), url(./assets/popular-bg2.png);
+        background-image: url(../assets/popular-bg1.png), url(../assets/popular-bg2.png);
         background-repeat: no-repeat, no-repeat;
         background-position: bottom, 0 865px;
         background-size: 105%;
@@ -1096,7 +1096,7 @@ h5 {
     } 
 
     .jackpots {        
-        background-image: url(./assets/new-bg3.png), url(./assets/new-bg4.png);
+        background-image: url(../assets/new-bg3.png), url(../assets/new-bg4.png);
         background-repeat: no-repeat, no-repeat;
         background-position: top, 0 300px;
         background-size: 105%;
