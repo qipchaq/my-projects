@@ -502,6 +502,7 @@ h5 {
   position: absolute;
   bottom: -170px;
   z-index: 0;
+  width: 100%;
 }
 
 .jackpots__inner {
