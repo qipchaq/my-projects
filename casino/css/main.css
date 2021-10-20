@@ -432,7 +432,7 @@ h5 {
 }
 
 .popular__btn-bottom {
-  max-width: 280px;
+  max-width: 240px;
   text-align: center;
   margin: 40px auto 430px;
   font-size: 16px;
@@ -1104,11 +1104,14 @@ h5 {
     margin-left: auto;
     margin-right: auto;
   }
-  .welcome__inner {
-    width: 100%;
+  .welcome {
     background-image: url(/assets/welcome-shine-bottom.png), url(/assets/welcome-shine-middle.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom, center;
+    background-position: bottom 0 left 0, center;
+  }
+  .welcome__inner {
+    width: 100%;
+    background-image: none;
     height: 100%;
   }
   .welcome__inner--content {
@@ -1171,7 +1174,11 @@ h5 {
             column-gap: 20px;
   }
   .popular__btn-bottom {
+    width: 280px;
     margin: 30px 0 140px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .popular__btn-bottom--new, .popular__btn-bottom--super {
     margin-bottom: 60px;
@@ -1197,7 +1204,7 @@ h5 {
     background-size: 105%;
   }
   .jackpots__inner {
-    width: calc(100% - 40px);
+    width: calc(100% - 30px);
     background-image: none;
   }
   .jackpots__container {
@@ -1242,10 +1249,14 @@ h5 {
   .news__content {
     -webkit-column-gap: 15px;
             column-gap: 15px;
-    margin-top: 40px;
-  }
-  .news__slots {
-    width: calc(100% - 40px);
+    margin: 40px auto 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 285px;
   }
   .news__slots--link {
     width: 210px;
@@ -1282,6 +1293,7 @@ h5 {
   .news__btn-left {
     padding: 2px 8px 4px 7px;
     border: 2px solid #311B60;
+    width: 27.5px;
   }
   .news__btn-left svg {
     width: 8.5px;
@@ -1289,7 +1301,8 @@ h5 {
   }
   .news__btn-right {
     padding: 2px 7px 4px 8px;
-    border: 2px solid #311B60;
+    border: 2px solid #00C2FF;
+    width: 27.5px;
   }
   .news__btn-right svg {
     width: 8.5px;
@@ -1297,6 +1310,42 @@ h5 {
   }
   .popular__btn-bottom--super {
     margin: 40px 0 80px;
+  }
+  .winners {
+    background-color: #231950;
+  }
+  .winners__inner {
+    width: calc(100% - 30px);
+  }
+  .winners__title {
+    font-size: 24px;
+    margin: 60px auto 40px;
+  }
+  .winners__content {
+    margin-bottom: 75px;
+    width: 285px;
+    -webkit-column-gap: 15px;
+            column-gap: 15px;
+  }
+  .winners__slots--link {
+    display: none;
+    width: 210px;
+    height: 140px;
+  }
+  .winners__slots--link1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: contain;
+  }
+  .winners__slots--content {
+    height: 42px;
+  }
+  .winners__slots--nick {
+    font-size: 12px;
+  }
+  .winners__slots--usd {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=main.css.map */
