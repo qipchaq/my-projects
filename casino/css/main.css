@@ -927,6 +927,10 @@ h5 {
           column-gap: 180px;
 }
 
+.footer__nav--logo2 {
+  display: none;
+}
+
 .footer__nav--social-p {
   margin: 30px 0 25px;
   line-height: 24px;
@@ -1315,10 +1319,12 @@ h5 {
     background-color: #231950;
   }
   .winners__inner {
-    width: calc(100% - 30px);
+    max-width: calc(100% - 30px);
   }
   .winners__title {
     font-size: 24px;
+    text-align: center;
+    width: 100%;
     margin: 60px auto 40px;
   }
   .winners__content {
@@ -1346,6 +1352,165 @@ h5 {
   }
   .winners__slots--usd {
     font-size: 12px;
+  }
+  .seo {
+    background-color: #10183A;
+  }
+  .seo__inner {
+    width: calc(100% - 40px);
+    background-color: none;
+  }
+  .seo__title {
+    font-size: 24px;
+    margin: 80px auto 20px;
+  }
+  .seo__content {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 80px;
+  }
+  .footer__inner {
+    max-width: 100%;
+  }
+  .footer__payments {
+    max-width: 100%;
+    margin: 100px auto 30px;
+  }
+  .footer__payments--h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .footer__payments--content--padding {
+    width: 100%;
+    background: linear-gradient(268.76deg, #311B60 18.2%, #10183A 98.25%);
+  }
+  .footer__payments--content {
+    width: calc(100% - 66px);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 60px;
+    -webkit-column-gap: 75px;
+            column-gap: 75px;
+    padding: 55px 0;
+    background: none;
+  }
+  .footer__payments--content img {
+    width: 90px;
+  }
+  .footer__providers {
+    max-width: 100%;
+    margin: 0 auto 50px;
+  }
+  .footer__providers--h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .footer__providers--content {
+    width: 100%;
+    padding: 0;
+  }
+  .footer__providers--content-1 {
+    width: calc(100% - 66px);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 60px;
+    -webkit-column-gap: 75px;
+            column-gap: 75px;
+    padding-top: 55px;
+  }
+  .footer__providers--content-1 img {
+    width: 100px;
+  }
+  .footer__providers--content-2 {
+    width: calc(100% - 66px);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 60px auto 0;
+    row-gap: 60px;
+    -webkit-column-gap: 75px;
+            column-gap: 75px;
+    padding-bottom: 55px;
+  }
+  .footer__providers--content-2 img {
+    width: 100px;
+  }
+  .footer__nav {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__nav--logo1 {
+    display: none;
+  }
+  .footer__nav--logo2 {
+    display: block;
+  }
+  .footer__nav--social {
+    width: calc(100% - 40px);
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .footer__nav--social-p {
+    font-size: 12px;
+    margin: 20px 0 20px;
+    width: 100%;
+  }
+  .footer__nav--p {
+    width: 250px;
+  }
+  .footer__nav--soc-icon {
+    margin-right: 20px;
+  }
+  .footer__nav--soc-icon :nth-child(4) {
+    margin-right: 0;
+  }
+  .footer__nav--info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__nav--slot {
+    width: calc(100% - 20px);
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .footer__nav--h5 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+    padding: 15px 160px 15px 30px;
+  }
+  .footer__terms {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px auto 0;
+    padding: 0;
+  }
+  .footer__terms--icons {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 20px;
+  }
+  .footer__terms--text {
+    margin: 0 20px 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__terms--text div {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
